@@ -305,7 +305,10 @@
    }
  
    @media (max-width: 610px) { 
- 
+
+    body {
+      overflow-x: hidden;
+    }
      .container {
        padding-left: 0.5rem;
        background-image: url("images/image1.jpeg");

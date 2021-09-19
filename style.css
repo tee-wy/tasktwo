@@ -56,13 +56,13 @@
  
  .gallery {
   display: block;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
  }
  
-  .gallery img {
-  height: 180px;
-  width: 95px;
+  .gallery  img {
+  height: 250px;
+  width:  180px;
  } 
  
  .container_aside {
@@ -74,7 +74,7 @@
  
  
  
- .container_aside > h2 {
+ .container_aside h2 {
   text-align: center;
   font-size: 35px;
  }
@@ -278,10 +278,19 @@
     background: rgb(240, 198, 205) ;  
     overflow: hidden;
     }
- 
+    
+    
+    .subscription{
+      border-top:   5px solid rgb(240, 198, 205);
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
     .subscription h2 {
      text-align: center;
-     font-size: 6rem;
+     font-style: italic;
+     font-size: 23px;
+     padding-top: 2rem;
     }
  
    .sub-container h2 {
@@ -325,6 +334,7 @@
       .gallery img {
        height: 300px;
        width: 90px;
+       overflow-x: hidden;
       }
  
       .collection_images {
@@ -332,6 +342,7 @@
        flex-direction: column;
        justify-content: center;
        padding-bottom: 4rem;
+       overflow-x: hidden;
       }
      
      
@@ -340,6 +351,7 @@
        width: 200px;
        padding-right: 1rem;
        padding-bottom: 0.5rem;
+       overflow-x: hidden;
       }
  
       .container .about {
@@ -422,62 +434,62 @@
          padding-bottom: 1rem;
         }
        
-       
-  .price-tag  img {
-   height: 300px;
-   width: 250px;
-   padding-right: 1rem;
-  
+            
+        .price-tag  img {
+        height: 300px;
+        width: 250px;
+        padding-right: 1rem;
+        overflow-x: hidden;
+        }
+      
+        .price-tag h2 {
+        font-size: 40px;
+        font-style: normal;
+        }
+      
+        .price-tag h3 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: bold;
+        padding-top: 0;
+        }
+      
+        .price-tag h6 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        }
+      
+        
+        .sub-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        }
+      
+        .sub-container h2 {
+          padding-bottom: 0;
+          font-size: 35px;
+          font-weight: bold;
+        }
+      
+        .sub-container h3 {
+          text-align: center;
+          font-size: 20px;
+      
+        }
+        .sub-container img {
+        width: 400px;
+        height: 300px;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+        overflow-x: hidden;
+        }
+        
+        .sub-container form {
+          text-align: center; 
+          margin-top: 0;
+        }
   }
- 
-  .price-tag h2 {
-   font-size: 40px;
-   font-style: normal;
-  }
- 
-  .price-tag h3 {
-   font-size: 30px;
-   font-style: normal;
-   font-weight: bold;
-   padding-top: 0;
-  }
- 
-  .price-tag h6 {
-   font-size: 20px;
-   font-style: normal;
-   font-weight: bold;
-  }
- 
-   
-  .sub-container {
-   display: flex;
-   flex-direction: column;
-   margin-top: 1rem;
-   padding-bottom: 1rem;
-  }
- 
-  .sub-container h2 {
-    padding-bottom: 0;
-    font-size: 35px;
-    font-weight: bold;
-  }
- 
-   .sub-container h3 {
-     text-align: center;
-     font-size: 20px;
- 
-   }
-  .sub-container img {
-   width: 400px;
-   height: 300px;
-   padding-right: 1rem;
-   margin-bottom: 2rem;
-  }
-  
-  .sub-container form {
-    text-align: center; 
-    margin-top: 0;
-  }
-  }
- 
  
